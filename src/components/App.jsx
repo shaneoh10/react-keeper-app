@@ -1,8 +1,17 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Header from './Header';
+import Footer from './Footer';
+import Note from './Note';
 
-const App = () => {
-    <h1>Hello App</h1>
+function App() {
+    return (
+        <div>
+            <Header />
+            <Note />
+            <Footer />
+        </div>
+    );
 }
 
 export default App;
